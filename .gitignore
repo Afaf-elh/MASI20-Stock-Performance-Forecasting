@@ -221,3 +221,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Financial datasets
+/data/raw/*
+/data/processed/*
+!/data/raw/.gitkeep
+!/data/processed/.gitkeep
+
+# Generated model files
+*.keras
+*.h5
+*.pkl
+*.joblib
+
+# Local environment and secrets
+.env
+.env.*
+.venv/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
